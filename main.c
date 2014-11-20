@@ -7,7 +7,7 @@
 #include <time.h>
 #include <sys/types.h>
 #include <unistd.h>
-
+#include <cstring>
 
 using namespace std;
 
@@ -28,7 +28,10 @@ void addUser(const char user[], const char password[])
     /* Generate a (not very) random seed.
        You should do it better than this... */
     seed[0] = time(NULL);
-    seed[1] = getpid() ^ (seed[0] >> 14 & 0x30000);
+    int toXor = 0;
+    for(int i = 0; i < strlen(user); i++)
+        toXor += user[i];
+    seed[1] = toXor ^ (seed[0] >> 14 & 0x30000);
 
     /* Turn it into printable characters from ‘seedchars’. */
     for (int i = 0; i < 8; i++)

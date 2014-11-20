@@ -1,0 +1,6 @@
+medium1:x:100:1010:medium1_RealName:userDir:/bin/bash
+medium2:x:101:1010:medium2_RealName:userDir:/bin/bash
+medium3:x:102:1010:medium3_RealName:userDir:/bin/bash
+medium4:x:103:1010:medium4_RealName:userDir:/bin/bash
+medium5:x:104:1010:medium5_RealName:userDir:/bin/bash
+medium6:x:105:1010:medium6_RealName:userDir:/bin/bash

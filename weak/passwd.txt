@@ -1,0 +1,6 @@
+weak1:x:100:1010:weak1_RealName:userDir:/bin/bash
+weak2:x:101:1010:weak2_RealName:userDir:/bin/bash
+weak3:x:102:1010:weak3_RealName:userDir:/bin/bash
+weak4:x:103:1010:weak4_RealName:userDir:/bin/bash
+weak5:x:104:1010:weak5_RealName:userDir:/bin/bash
+weak6:x:105:1010:weak6_RealName:userDir:/bin/bash

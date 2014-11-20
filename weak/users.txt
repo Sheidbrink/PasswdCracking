@@ -1,0 +1,6 @@
+weak1 a
+weak2 abcd
+weak3 WeAk
+weak4 WeAkRD
+weak5 w3Ak.Rd
+weak6 .?8Rd[

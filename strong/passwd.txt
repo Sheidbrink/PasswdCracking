@@ -1,0 +1,4 @@
+strong1:x:100:1010:strong1_RealName:userDir:/bin/bash
+strong2:x:101:1010:strong2_RealName:userDir:/bin/bash
+strong3:x:102:1010:strong3_RealName:userDir:/bin/bash
+strong4:x:103:1010:strong4_RealName:userDir:/bin/bash
